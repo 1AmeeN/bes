@@ -1,0 +1,51 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 30px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  position: fixed;
+  left: 20px;
+  width: 80px;
+}
+
+.avatar {
+  position: fixed;
+  right: 20px;
+  width: 30px;
+  z-index: -1;
+}
+.search {
+  margin-left: 65px;
+  padding: 0 20px;
+  position: absolute;
+  display: flex;
+  min-width: 5%;
+  max-height: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.search > button {
+  width: 30px;
+  background-color: white;
+  border-radius: 20px;
+  border-style: none;
+  padding: 0 5px;
+}
+.search > button:hover {
+  background-color: mediumturquoise;
+  cursor: pointer;
+}
+.search > input {
+  color: burlywood;
+  border-radius: 20px;
+  border-style: none;
+}
+.search > input:hover {
+  border-color: chocolate;
+}
